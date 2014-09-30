@@ -23,6 +23,10 @@
 			margin: 0 0 20px 0;
 		}
 
+		hr{
+			margin: 15px 0 15px 0;
+		}
+		
 		li{
 			margin: 0 0 8px 0;
 		}
@@ -173,7 +177,7 @@
 				
 					.thumb{
 						border: 0px solid purple;
-						background: white;
+						background: #780000;
 						
 						float: left;
 						opacity: 1.0;
