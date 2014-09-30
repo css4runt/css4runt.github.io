@@ -4,23 +4,15 @@
 			font-size: 13px;
 			
 			min-width: 900px;
-			height: 100%;
 			margin: 0;
 		}
 
 		h1{
 			font-family: Arial, Helvetica, sans-serif;
-			margin: 0;
 		}
 		
 		h2{
 			font-size: 17px;
-			margin: 0 0 20px 0;
-		}
-		
-		h3{
-			font-size: 14px;
-			margin: 0 0 20px 0;
 		}
 
 		li{
@@ -70,7 +62,10 @@
 		
 /* MAINWRAP */		
 					#mainwrap{
-						padding: 20px;
+						border: 0px solid red;
+						
+						width: 95%;
+						margin: 30px auto;
 					}
 					
 					
@@ -92,7 +87,7 @@
 					
 					.textblock span{
 						font-family:"Courier New", Courier, monospace;
-						color: black;
+						color: #474747;
 						
 						padding: 2px;
 						margin: 0 4px 0 4px;
@@ -100,120 +95,35 @@
 					
 					.indented_textblock{
 						border: 0px solid purple;
-						margin: 25px 50px 25px 50px;
+						margin: 0 0 0 50px;
 					}
 					
 					.textblock p{
 						border: 0px solid purple;
 						margin: 0 0 0 50px;
-						padding: 0;
-					}
-					
-					.p_div{
-						border: 0px solid yellow;
-						background: #616161;
-						margin: 25px 0 25px 50px;
-						overflow: hidden;
 					}
 					
 					.codeblock {
 						border: 0px solid red;
-						background: #616161;
+						background: #9a9a9a;
 						font-family:"Courier New", Courier, monospace;
-						color: black;
+						color: #474747;
 						
 						width: 700px;
 						padding: 15px;
-						margin: 25px auto 25px auto;
+						margin: 50px auto 50px auto;
 					}
 					
 					.codeblock span{
-						color: #780000;
-						margin: 0;
+					color: #780000;
 					}
 
 
 
 
 					
-/*********************************************************************************************************************
-**********************************************************************************************************************
-			  ___ _____ _  _ ___ ___    ___ _      _   ___ ___ ___ ___ 
-			 / _ \_   _| || | __| _ \  / __| |    /_\ / __/ __| __/ __|
-			| (_) || | | __ | _||   / | (__| |__ / _ \\__ \__ \ _|\__ \
-			 \___/ |_| |_||_|___|_|_\  \___|____/_/ \_\___/___/___|___/
+/* OTHER CLASSES */
 
-**********************************************************************************************************************		
-*********************************************************************************************************************/
-
-/* SECTION WRAPPER */
-					.sectionwrap{
-						border: 0px solid white;
-						background: #9a9a9a;
-						padding: 15px;
+					.thumbnail{
+						border: 1px;
 					}
-
-/* IMAGE THUMBNAIL */					
-					.thumbwrap_outer{
-						border: 0px solid red;
-						overflow:hidden;
-						
-						margin: 0 0 0 0;
-					}
-					
-					.thumbwrap_inner{
-						border: 0px solid blue;
-						
-						float: left;
-						margin: 5px;
-						padding: 4px;
-
-						width: 296px;
-					}
-				
-					.thumb{
-						border: 0px solid purple;
-						background: white;
-						
-						float: left;
-						opacity: 1.0;
-											
-						width: 80px;
-						height: 80px;	
-						overflow: hidden
-					}
-
-					.thumb img{
-						height: 200%;
-					}
-
-					.thumb img:hover{
-						opacity: 0.8;
-					}
-				
-					.thumbcap{
-						border: 0px solid green;
-						font-size: 10px;
-						
-						float: left;
-						text-align: justify;
-						text-justify: inter-word;
-						padding: 6px;
-						
-						width: 200px;
-					}
-					
-													/* THUMBNAIL FORMAT */
-													
-/*																			<div class=thumbwrap_inner>
-																	
-																					<!-- THUMBNAIL IMAGE -->
-																					<div class=thumb><a href="IMAGE URL HERE"><img src="IMAGE URL HERE"></a></div>
-																		
-																					<!-- THUMBNAIL CAPTION -->
-																					<div class=thumbcap>
-																						THUMBNAIL CAPTION GOES HERE.
-																					</div>
-																
-																			</div>
-*/
