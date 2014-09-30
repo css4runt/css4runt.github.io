@@ -31,6 +31,25 @@
 			margin: 0 0 8px 0;
 		}
 		
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			vertical-align: middle;
+			margin: 0 auto 0 auto;
+		}
+		
+		th {
+			background: #616161;
+			font-size: 15px;
+			padding: 10px 6px 10px 6px;
+		}
+		
+		td{
+			background: white;
+			font-size: 11px;
+			padding: 4px;
+		}
+		
 		a:link {	text-decoration: none; color: #474747;}
 		a:visited {text-decoration: none; color: #780000;}
 		a:hover {color: white;}
