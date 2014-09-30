@@ -20,7 +20,7 @@
 		
 		h3{
 			font-size: 14px;
-			margin: 0 0 20px 0;
+			margin: 20px 0 20px 0;
 		}
 
 		hr{
@@ -104,7 +104,7 @@
 					
 					.indented_textblock{
 						border: 0px solid purple;
-						margin: 25px 50px 25px 50px;
+						margin: 0 50px 0 50px;
 					}
 					
 					.textblock p{
@@ -116,7 +116,7 @@
 					.p_div{
 						border: 0px solid yellow;
 						background: #616161;
-						margin: 25px 0 25px 50px;
+						margin: 25px 0 0 50px;
 						overflow: hidden;
 					}
 					
